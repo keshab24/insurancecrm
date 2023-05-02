@@ -1,0 +1,865 @@
+/*talk to expert*/
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 350px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.right .modal-body {
+    padding: 30px 30px 80px;
+}
+
+#expertTalk .modal-header {
+    border: none;
+    padding: 20px 30px;
+}
+
+.expert-talk input {
+    background: #FFFFFF;
+    border: 0.5px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 20px 10px;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+.form-group label {
+    color: #8A8A8A;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*how much*/
+.how-much {
+    background: #F5F5F5;
+    padding: 80px 0;
+    margin-top: 50px;
+}
+.how-much .row {
+    margin: 0px;
+}
+
+.how-much-left {
+    padding-right: 0;
+}
+
+.how-much-left img {
+    max-width: 100%;
+    float: right;
+}
+
+.how-much-right {
+    background: #ffff;
+    padding: 55px 100px;
+}
+
+.how-much-right h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    font-family: 'Open Sans Light Bold';
+}
+
+.how-much-right p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.how-much-right a {
+    background: #3D538C;
+    border-radius: 2px;
+    padding: 10px 50px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: open sans;
+}
+
+img.responsive-only {
+    display: none;
+}
+
+/*Calculate bar*/
+
+.calculate-now {
+    padding: 60px 0;
+    margin-bottom: 80px;
+}
+
+.calculate-bar {
+    background: #3D538C;
+    padding: 5px 20px;
+}
+
+.calculate-bar h4 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+
+h4.text-second {
+    color: #ffcb2f;
+}
+
+a.calc-right-button {
+    padding: 15px 30px;
+    background: #ffff;
+    line-height: 75px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #3D538C;
+}
+
+
+.slick-dots li button:before {
+    font-size: 12px !important;
+    color: rgba(57, 135, 251, 0.6) !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #3987FB !important;
+}
+
+.menu-icn:before {
+    display: none;
+}
+
+.text-small {
+    font-size: 10px;
+}
+
+/*float buttons*/
+.float {
+    position: fixed;
+    padding: 15px 12px;
+    bottom: 50%;
+    right: 0;
+    background: #EF2853;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
+    border-radius: 2px 0px 0px 2px;
+    color: #FFF;
+    text-align: center;
+}
+
+.float-btn {
+    position: fixed;
+    padding: 13px;
+    bottom: 42%;
+    right: 0;
+    background-color: #ffff;
+    color: #EF2853;
+    text-align: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
+    border-radius: 2px 0px 0px 2px;
+}
+
+.float:hover {
+    color: #3D538C;
+}
+
+h4#talkToExpert {
+    color: #3A6DA7;
+    text-transform: capitalize;
+}
+
+form.expert-talk button {
+    background: #3987FB;
+    border-radius: 2px;
+    padding: 10px 0px;
+    width: 100%;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.my-float {
+    font-size: 28px;
+}
+
+.my-float-btn {
+    font-size: 24px;
+}
+
+/* menu Css */
+
+.dropdown-menu > li > a {
+    padding: 10px;
+}
+
+.logout-btn {
+    background: #3D538C;
+    padding: 4px;
+    color: #ffff;
+}
+
+/* compare Css */
+.comp-color {
+    background: #A13737;
+}
+
+.container.comp-color {
+    padding-top: 30px;
+}
+
+.compare-left-img img {
+    max-width: 100%;
+}
+
+.compare-right h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 61px;
+    color: #FFFFFF;
+    font-family: open sans;
+    font-weight: 800;
+}
+
+.compare-right p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: open sans;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.compare-btn {
+    line-height: 22px;
+    text-align: center;
+    color: #A13737;
+    text-decoration: none !important;
+    cursor: pointer;
+    background: #ffffff;
+    padding: 8px 25px;
+    text-decoration: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #972A2A;
+    border-radius: 4px;
+}
+
+.fa:before {
+    font-family: 'FontAwesome';
+}
+
+/*Calculator*/
+.responsive-hide {
+    display: block;
+}
+
+.responsive-show {
+    display: none;
+}
+
+/* Responsive Css */
+
+
+@media only screen and (max-width: 1232px) {
+
+    /*Calculator*/
+    .responsive-full-width-box-responsive {
+        width: 100% !important;
+    }
+
+    .responsive-hide {
+        display: none;
+    }
+
+    .responsive-show {
+        display: block;
+    }
+
+    /*menu*/
+    .top-media-bar {
+        height: 45px;
+    }
+
+    .media-icons li {
+        padding: 14px;
+    }
+
+    .make-gap {
+        padding: 0px 30px;
+    }
+
+    .header-login-btn {
+        padding: 8px 10px !important;
+        margin-top: 0px;
+    }
+
+    /* top slider */
+    .top-left-text {
+        width: 100%;
+    }
+
+    .top-right-plans {
+        width: 100%;
+    }
+
+    /*why us*/
+    .why-us {
+        padding: 50px 0;
+    }
+
+    .top-left-text .title {
+        width: 60%;
+    }
+
+    .top-left-text p {
+        width: 50%;
+    }
+
+    .calculate-now {
+        display: none;
+    }
+
+    .how-much-left {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .how-much-left img {
+        float: none;
+        display: none;
+    }
+
+    .responsive-only {
+        display: block !important;
+    }
+
+    .how-much-right {
+        width: 100%;
+    }
+
+    .container.comp-color {
+        padding: 0px;
+    }
+
+    .col-sm-5.compare-right.text-center {
+        width: 51%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 990px) {
+    .no-display-top {
+        display: none !important;
+    }
+
+    #languageModal .modal-dialog {
+        top: 70%;
+    }
+
+    .language-text-left {
+        width: 80%;
+    }
+
+    .language-img {
+        width: 60%;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-icn:before {
+        display: inline;
+        background: #F7A856;
+        border-radius: 2px;
+        padding: 10px;
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 100;
+        margin-right: 10px;
+    }
+
+    .menu-icn-sub:before {
+        display: inline;
+        background: #FAFAFA;
+        border-radius: 2px;
+        padding: 10px;
+        color: #555555;
+        font-size: 14px;
+        font-weight: 100;
+        margin-right: 10px;
+    }
+    ul.dropdown-menu li {
+        padding: 10px 0;
+    }
+
+    .menu-icn .caret {
+        float: right;
+        margin-right: 40px;
+        transform: rotate(
+            270deg
+        );
+    }
+    .menu-icn .caret:focus , .menu-icn .caret:hover {
+        transform: rotate(
+            0deg
+        );
+    }
+    a.dropdown-toggle.fa.fa-heart-o.menu-icn {
+        padding: 15px;
+    }
+    a.dropdown-toggle.fa.fa-heart-o.menu-icn:focus,a.dropdown-toggle.fa.fa-heart-o.menu-icn:hover{
+        background: #FFF5EB;
+        border-radius: 8px;
+    }
+
+    ul.nav.navbar-nav.navbar-right li {
+        padding: 10px 0;
+        margin: 10px 0;
+        background: #FAFAFA;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .register-form {
+        width: 100%;
+    }
+
+    .navbar-menus {
+        padding: 0;
+    }
+
+    .col-sm-4.compare-left-img {
+        display: none;
+    }
+
+    .col-sm-5.compare-right.text-center {
+        width: 100%;
+    }
+
+    .container.comp-color {
+        padding-bottom: 40px;
+    }
+
+    #myBtn {
+        bottom: 30px;
+        right: 30px;
+        font-size: 24px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .social-top-icn {
+        padding: 14px 3px !important;
+    }
+
+    /*how much*/
+    .how-much-left {
+        display: none;
+    }
+
+    .how-much-right {
+        background: url(/frontend/img/home/how-much-half.png);
+        background-size: cover !important;
+        padding: 0;
+    }
+
+    .background-dull {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 50px 40px;
+    }
+
+    .how-much-right h2, .how-much-right p {
+        color: #ffff;
+        opacity: 1;
+    }
+
+    .how-much-right h2 {
+        width: 50%;
+        font-size: 28px;
+    }
+
+    /*top slider*/
+    .top-left-text .title {
+        width: 90%;
+    }
+
+    .resp-width-wrk {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .working-bar img {
+        padding: 10px 0;
+    }
+
+    .how-works {
+        border: none;
+    }
+
+    .why-us-left-banner {
+        padding: 50px;
+        width: 100%;
+    }
+
+    .why-us-right-banner {
+        width: 100%;
+    }
+
+    .why-us-card-body {
+        width: 100%;
+        margin-top: 0;
+
+    }
+
+    .why-box-right img {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .slick-dots {
+        position: inherit !important;
+    }
+
+    .whyItems .slick-dots {
+        bottom: -50px;
+    }
+
+    .why-different {
+        padding: 50px 0px;
+    }
+
+    .why-diff-left {
+        padding: 0 5px;
+        background: transparent;
+    }
+
+    .why-different-div, .why-different-items {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .why-diff-left i {
+        display: none;
+    }
+
+    .diff-top br {
+        display: none;
+    }
+
+    .footer-logo-part {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .base-img {
+        max-width: 30%;
+    }
+
+    .base-logo-text {
+        text-align: justify;
+    }
+
+    .footer-titile {
+        padding: 20px;
+        width: 50%;
+    }
+
+    .copyright-text .col-sm-3:first-child {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .mobile-display {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .footer-item p {
+        text-align: right;
+    }
+
+    .footer-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    body {
+        padding-top: 90px;
+    }
+
+    /* compare calculator */
+    .compare-right h3 {
+        font-size: 24px;
+    }
+
+    .compare-right p {
+        font-size: 14px;
+    }
+
+    .age-title {
+        display: none;
+    }
+
+    .calendardate select, .calendardate input {
+        margin: 0px !important;
+        width: 32%;
+        display: inline;
+        padding: 5px;
+    }
+
+    /* language select */
+    .modal-size-control {
+        max-width: 90% !important;
+        height: 80%;
+    }
+
+    .language-modal-title {
+        transform: none;
+        font-size: 32px;
+    }
+
+    .language-text-left {
+        padding: 30px;
+    }
+
+    .btn-lang-select {
+        margin: 30px 5px;
+    }
+
+    .language-text-left h2 {
+        font-size: 32px;
+    }
+
+    .language-text-left h3 {
+        font-size: 26px;
+    }
+
+    .top-media-bar {
+        display: none !important;
+    }
+
+    .make-gap {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .navbar-default .navbar-toggle {
+        border: none;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #000000;
+        border-radius: 30px;
+        width: 30px;
+        height: 3px;
+    }
+
+    .navbar-toggle {
+        margin-top: 24px;
+    }
+
+    /*top section*/
+    .top-left-text .title {
+        width: 100%;
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    .top-left-text {
+        background: #F5F5F5;
+        padding: 5px 20px;
+    }
+
+    .plan-list-right {
+        display: none;
+    }
+
+    .plan-img-side h2 {
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .plan-img {
+        margin-top: 20px;
+    }
+
+    /*how much*/
+    .how-much-right h2 {
+        width: 100%;
+    }
+
+    .background-dull {
+        text-align: left;
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    /*why us*/
+    .card-body.make-space {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .why-us-left-banner {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .why-us-left-banner button {
+        margin-top: 50px;
+    }
+
+    .why-us {
+        margin-bottom: 10px;
+    }
+
+    .diff-top br {
+        display: block;
+    }
+
+    .why-different {
+        padding: 50px 0;
+    }
+
+    .why-diff-left {
+        padding: 0;
+    }
+
+    .why-diff-left i {
+        display: none;
+    }
+
+    .whyItems .slick-slide img {
+        margin: 0 auto;
+    }
+
+    .whyItems .slick-dots {
+        bottom: 30px;
+    }
+
+    .why-box-right {
+        margin: 100px 0;
+    }
+
+    .why-us {
+        padding: 0;
+    }
+
+    /*how it works*/
+    .how-works {
+        display: none;
+    }
+
+    .how-it-works {
+        padding: 50px 0;
+    }
+
+    .working-bar .col-sm-2 {
+        margin-bottom: 50px;
+    }
+
+    .working-bar img {
+        padding: 0;
+    }
+
+    .training-title h2 {
+        font-weight: bold;
+    }
+
+    .training-title {
+        padding: 20px 0;
+    }
+
+    /*footer*/
+    .footer .col-sm-4:first-child {
+        text-align: center;
+    }
+
+    .footer img.base-img {
+        padding: 40px 0;
+    }
+
+    .row.copyright-text {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .copyright-text .col-sm-3:first-child {
+        margin-bottom: 50px;
+    }
+
+    .footer-titile {
+        padding: 20px 10px;
+    }
+
+    .footer-second-item {
+        width: 100%;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+
+    .footer-item p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .top-left-text .title {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .footer-titile {
+        width: 100%;
+    }
+
+    .top-left-text {
+        padding: 10px;
+    }
+
+    .language-text-left {
+        padding: 10px;
+    }
+
+    .language-modal-title {
+        font-size: 28px;
+    }
+
+    .language-text-left h2 {
+        font-size: 28px;
+    }
+
+    .language-text-left h3 {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.form-group.has-error .help-block {
+    font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+/* ------ Global CSS Ends ------- */
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #2a75e4;
+}
+
+.btn-primary:hover {
+    background-color: #2a75e4 !important;
+}
+/*Preloader*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #000000;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #000000;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #000000;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ------ Global CSS Ends ------- */
+
+h2 {
+    text-align: center;
+    margin: 50px 0 0;
+    color: #848484;
+    padding: 0;
+    font: 1.5em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.upload-wrapper {
+    max-width: 500px;
+    background-color: #E4E4E4;
+    padding: 10px;
+    margin: 30px auto 0px;
+    border: 1px solid #DADADA;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.14);
+}
+
+#dropzone {
+    border: 1px solid #C7C7C7;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.12);
+    -moz-box-box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+
+#dropzone i {
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: #CACACA;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.input-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.input-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    -ms-filter: 'alpha(opacity=0)';
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    display: block;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    font-family: inherit;
+    padding: .5em 1em;
+    color: #444;
+    color: rgba(0, 0, 0, .8);
+    border: 1px solid #999;
+    border: 0 rgba(0, 0, 0, 0);
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.8em;
+    margin-left: 2px;
+}
+
+.button:hover {
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.4);
+    -moz-box-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.button:disabled {
+    background-color: #D4D4D4;
+    color: #B1B1B1;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.52);
+    box-shadow: none;
+    -moz-box-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.btn-blue {
+    background-color: #468296;
+}
+
+.btn-red {
+    background-color: #EA6363;
+}
+
+.file-row {
+    padding: 10px;
+    background-color: #DCDCDC;
+    margin-top: 5px;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.04);
+    -moz-box-box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.04);
+    border: 1px solid #CECECE;
+    min-height: 50px;
+}
+
+.file-row video {
+    width: 100%;
+}
+
+.file-row audio {
+    width: 100%;
+}
+
+.file-row .file-row-text {
+    text-align: right;
+}
+
+.file-row .file-remove {
+    float: right;
+    margin-top: -6px;
+    text-decoration: none;
+    color: #848484;
+}
+
+.file-uploaded {
+    background-color: #D2D6E0;
+}
+
+.file-row canvas {
+    float: left;
+    margin-right: 10px;
+}
+
+.file-row span {
+    display: block;
+    font-size: small;
+    color: #848484;
+    margin-bottom: 4px;
+    max-width: 500px;
+    overflow: hidden;
+    max-height: 16px;
+}
+
+.progress {
+    background-color: #FFF;
+    height: 10px;
+    overflow: hidden;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1px;
+    width: 100px;
+    border-radius: 6px;
+    float: right;
+}
+
+.progress .progress-bar {
+    background-color: rgba(67, 196, 218, 0.99);
+    width: 0;
+    height: 10px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 9px;
+    box-shadow: inset 0px 0px 9px rgba(49, 74, 56, 0.42);
+    -webkit-box-shadow: inset 0px 0px 9px rgba(49, 74, 56, 0.42);
+    -moz-box-box-shadow: inset 0px 0px 9px rgba(49, 74, 56, 0.42);
+}
+
+#error_output {
+    color: red;
+}
+
+.text-danger,
+.text-success {
+    float: left;
+    margin-top: -10px;
+    font-style: italic;
+}
+
+.text-danger {
+    color: #F00!important;
+}
+
+.text-success {
+    color: #0CAF00!important;
+}
+
+
+/* Login Page style start */
+
+.admin--login--wrapper {
+    height: 100vh;
+    background-color: #F9FBFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', serif;
+    background: url(/backend/img/welcome-bg.png);
+}
+
+.form--wrapper {
+    padding: 32px 32px 24px 32px;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 14px rgb(0 0 0 / 4%);
+    border-radius: 16px;
+    border: 1px solid #F5F5F5;
+}
+
+.form--wrapper img {
+    width: 210px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.form-group {
+    margin-bottom: 24px !important;
+}
+
+.form-group>label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form-group>input {
+    border-radius: 4px;
+}
+
+.forgot--password a {
+    color: #3987FB !important;
+    text-decoration: none !important;
+}
+
+.forgot--password a:hover {
+    text-decoration: underline !important;
+    color: #2a75e4 !important;
+}
+
+.login--btn>div>button {
+    width: 100%;
+    background: #3987FB;
+    border-radius: 4px !important;
+}
+
+.back--home {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.forgot--password {
+    text-align: right;
+    margin: 16px 0;
+    color: #558EFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.back--home>a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #616161;
+}
+
+.back--home:hover a {
+    background-color: #F5F5F5;
+}
+
+
+/* Login Page style End */
